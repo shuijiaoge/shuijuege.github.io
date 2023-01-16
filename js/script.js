@@ -111,7 +111,7 @@ class Snowflake {
     let item = 1;
     setInterval(() => {
       item++;
-      if (item === 5) {
+      if (item === 4) {
         item = 1;
       }
       console.log(item, 'item');
