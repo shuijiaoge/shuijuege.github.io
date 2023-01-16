@@ -70,11 +70,11 @@ class Snowflake {
   new Snow();
   var stop = false;
   function show_runtime() {
-    var newDay = '2023/01/01 00:00:00';
+    var newDay = '2023/01/22 00:00:00';
     var countDate = new Date(newDay);
     var now = new Date().getTime();
     gap = countDate - now;
-    var second = 3000;
+    var second = 1000;
     var minute = second * 60;
     var hour = minute * 60;
     var day = hour * 24;
