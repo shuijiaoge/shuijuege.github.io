@@ -95,7 +95,7 @@ class Snowflake {
     document.getElementById('title').innerText = 'Happy Spring Festival';
     document.getElementById('day').innerText = '新年';
     document.getElementById('hour').innerText = '快乐';
-    document.getElementById('minute').innerText = '小学生';
+    document.getElementById('minute').innerText = '呆比';
     document.getElementById('second').innerText = '睡觉哥';
   }
   var time = setInterval(() => {
