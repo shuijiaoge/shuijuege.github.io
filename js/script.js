@@ -105,7 +105,7 @@ class Snowflake {
       clearInterval(time);
       window.location.href="firework.html";
     }
-  }, 3000);
+  }, 1000);
   // 定时器 控制图片自动切换
   function downTime() {
     let item = 1;
