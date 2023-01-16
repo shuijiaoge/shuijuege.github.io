@@ -70,7 +70,7 @@ class Snowflake {
   new Snow();
   var stop = false;
   function show_runtime() {
-    var newDay = '2023/01/01 00:00:00';
+    var newDay = '2023/01/22 00:00:00';
     var countDate = new Date(newDay);
     var now = new Date().getTime();
     gap = countDate - now;
@@ -93,10 +93,10 @@ class Snowflake {
   }
   function newyear() {
     document.getElementById('title').innerText = 'Happy Spring Festival';
-    document.getElementById('day').innerText = '春';
-    document.getElementById('hour').innerText = '节';
-    document.getElementById('minute').innerText = '快';
-    document.getElementById('second').innerText = '乐';
+    document.getElementById('day').innerText = '新年';
+    document.getElementById('hour').innerText = '快乐';
+    document.getElementById('minute').innerText = '小学生';
+    document.getElementById('second').innerText = '睡觉哥';
   }
   var time = setInterval(() => {
     show_runtime();
