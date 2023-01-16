@@ -92,7 +92,7 @@ class Snowflake {
     }
   }
   function newyear() {
-    document.getElementById('title').innerText = 'Happy Spring Festival';
+    document.getElementById('title').innerText = '祝小学生睡觉哥新年快乐！';
     document.getElementById('day').innerText = '新';
     document.getElementById('hour').innerText = '年';
     document.getElementById('minute').innerText = '快';
