@@ -1,18 +1,3 @@
-
-/*
-
-  Shape Shifter
-  =============
-  A canvas experiment by Kenneth Cachia
-  http://www.kennethcachia.com
-
-  Updated code
-  ------------
-  https://github.com/kennethcachia/Shape-Shifter
-
-*/
-
-
 var S = {
   init: function () {
     var action = window.location.href,
@@ -24,9 +9,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      // 倒计时修改这句中的数字，不需要倒计时删除“|#countdown 3|”，换内容修改文字
-      // S.UI.simulate('|#countdown 3||2023|兔|年|快|乐|#rectangle|');
-      S.UI.simulate('|2023|兔年|春节|快乐|#rectangle|');
+      S.UI.simulate('|2023|祝愿|八→小学生睡觉哥←戒|诸事皆顺|兔年快乐|--来自你问道叔的祝福--|#rectangle|');
     }
 
     S.Drawing.loop(function () {
