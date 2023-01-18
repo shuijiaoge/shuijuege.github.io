@@ -9,7 +9,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|2023|祝|八→小学生睡觉哥←戒|诸事皆顺|兔年快乐|--来自你问道叔的祝福--|#rectangle|');
+      S.UI.simulate('|2023|祝愿|小学生睡觉哥|诸事皆顺|兔年快乐|来自你叔的祝福|#rectangle|');
     }
 
     S.Drawing.loop(function () {
